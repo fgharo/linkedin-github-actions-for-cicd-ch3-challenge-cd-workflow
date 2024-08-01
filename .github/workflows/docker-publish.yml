@@ -24,7 +24,7 @@ env:
 
 jobs:
   integration:
-    uses: fgharo/linkedin-github-actions-for-cicd-ch3-challenge-reusable-ci-workflow/.github/workflows/python-ci-workflow.yml@main
+    uses: fgharo/linkedin-github-actions-for-cicd-ch3-challenge-reusable-ci-workflow/.github/workflows/python-app.yml@main
     permissions:
       contents: read
       checks: write
